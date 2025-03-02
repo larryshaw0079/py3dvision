@@ -1,0 +1,23 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools >= 61.0", "wheel"]
+
+[project]
+name = "py3dv"
+version = "0.0.1"
+dependencies = [
+    "numpy",
+    "pandas",
+    "tqdm",
+    "einops",
+    "scipy>=0.14.0",
+    "matplotlib",
+    "scikit-learn>=0.22.1",
+    "torch>=1.6",
+    "pytorch3d",
+    "torch-cluster"
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
